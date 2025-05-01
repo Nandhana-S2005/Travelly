@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explore the Wonders of Egypt</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+      body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #a0e7e5 60%, #fcd1d1 100%);
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23f8c8dc' fill-opacity='0.2'%3E%3Ccircle cx='10' cy='10' r='1.2'/%3E%3Ccircle cx='4' cy='16' r='0.8'/%3E%3Ccircle cx='16' cy='4' r='0.8'/%3E%3Ccircle cx='1' cy='1' r='0.5'/%3E%3Ccircle cx='19' cy='19' r='0.5'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: auto;
+  color: #333;
+}
+
+
+    nav {
+      background-color: #a0e7e5;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h1 {
+      color: #4b3f72;
+      margin: 0;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .header {
+      background-image: url('https://th.bing.com/th/id/R.2c2edf5d279079dacb48ccb3513a1d74?rik=nzVVgRUYpC05Sw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fLdUHSUk.jpg&ehk=YdDcjtIoiOIANR9xbYQa6YqfpLYkd0pRADpjmHMzHiE%3d&risl=&pid=ImgRaw&r=0'); /* Egypt background */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 6rem 2rem;
+      text-align: center;
+      color: #fff;
+      position: relative;
+    }
+
+    .header::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.35);
+      z-index: 1;
+    }
+
+    .header h2,
+    .header p {
+      position: relative;
+      z-index: 2;
+    }
+
+    .header h2 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .header p {
+      font-size: 1.2rem;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+
+    .content-section {
+      margin-top: 3rem;
+    }
+
+    .content-section h3 {
+      font-size: 2rem;
+      color: #4b3f72;
+      margin-bottom: 1rem;
+    }
+
+    .content-section p {
+      line-height: 1.8;
+      color: #555;
+    }
+
+    .img-wrapper {
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    .img-wrapper img {
+      width: 80%;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #dfeefc;
+      font-size: 0.95rem;
+      color: #555;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <h1>Travelly</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="destinations.html">Destinations</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="package.html">Packages</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="whychoose us.html">Why Choose Us</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="header">
+    <h2>Explore the Wonders of Egypt</h2>
+    <p>Step into a land of timeless beauty and ancient secrets</p>
+  </header>
+
+  <!-- Content -->
+  <div class="container">
+    <div class="content-section" data-aos="fade-up">
+      <h3>The Timeless Beauty of Egypt</h3>
+      <p>Egypt, the land of the pharaohs, is one of the most iconic travel destinations in the world. From the majestic Pyramids of Giza to the bustling streets of Cairo, every corner of Egypt tells a story of ancient civilizations, timeless art, and spiritual legacy.</p>
+
+      <div class="img-wrapper">
+        <img src="https://img.freepik.com/premium-photo/egypt-pyramids-sunset_1114320-182.jpg" alt="Pyramids in Egypt" />
+      </div>
+
+      <p>Begin your journey at the Great Pyramids of Giza, the only surviving Wonder of the Ancient World. These awe-inspiring structures, along with the enigmatic Sphinx, continue to draw visitors from across the globe. Visit the nearby Egyptian Museum to witness a treasure trove of mummies, artifacts, and the famous gold mask of Tutankhamun.</p>
+
+      <p>Travel south to Luxor, the world’s greatest open-air museum. Explore the grand temples of Karnak and Luxor, and cross the Nile to the Valley of the Kings, where pharaohs rest in elaborately decorated tombs. Don’t miss the unforgettable experience of a sunrise hot air balloon ride over the Nile Valley.</p>
+
+      <p>For a change of scenery, head to the Red Sea resorts of Sharm El Sheikh or Hurghada. Relax on pristine beaches, dive among vibrant coral reefs, or enjoy luxury resorts along the turquoise coastline.</p>
+
+      <p>Egypt is not just about monuments—it’s about people, culture, and unforgettable stories. Savor local dishes like koshari, ful medames, and grilled meats, and sip mint tea as you watch the sun set over the Nile.</p>
+      <p>Take a leisurely cruise along the Nile River, the lifeline of Egypt, and witness rural life unfold along its banks. As you glide past lush green fields and ancient temples, you'll get a deeper sense of the rhythm and resilience of this ancient land. Stop at Edfu and Kom Ombo temples, each with its own legends and architectural marvels.</p>
+
+<p>For those interested in spirituality and history, Mount Sinai offers a deeply moving experience. Believed to be the site where Moses received the Ten Commandments, the climb at dawn rewards visitors with one of the most breathtaking sunrises in the world.</p>
+
+<p>Cairo, the sprawling capital, is a dynamic blend of ancient and modern. Wander through the vibrant Khan el-Khalili bazaar for spices, handmade crafts, and authentic Egyptian souvenirs. Visit the historic Islamic Cairo district, home to stunning mosques, madrasas, and bustling alleyways full of local life.</p>
+
+<p>Egypt's charm lies not just in its monuments, but in its timeless atmosphere—where every breeze carries whispers of the past. Whether you're a history buff, an adventure seeker, or a beach lover, Egypt promises a journey full of discovery, wonder, and awe.</p>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Travelly. Crafted with ✈ by Team Travelly</p>
+  </footer>
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
+
+        
+          
